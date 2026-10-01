@@ -10,7 +10,7 @@ check: deterministic    # deterministic | judgment | mixed
 assumed_model: ""       # 採否を判断した時点のモデル
 decided_on: ""          # 採否を判断した日(YYYY-MM-DD)
 review_on: model-update # 再評価のきっかけ
-eval_tasks: []          # 評価に使うタスクの ID(evaluation/ で定義)
+eval_tasks: []          # 評価に使うタスクの ID(evaluation/tasks/ で定義)
 ---
 
 # R-0000 ルールの名前
@@ -45,7 +45,7 @@ eval_tasks: []          # 評価に使うタスクの ID(evaluation/ で定義)
 
 ## 評価タスク
 
-このルールの採否を、どのタスクで測るかを書きます。タスクの定義そのものは複数のルールで共有するので `evaluation/` に置き、ここでは ID を参照します。
+このルールの採否を、どのタスクで測るかを書きます。タスクの定義そのものは複数のルールで共有するので `evaluation/tasks/` に置き、ここでは ID を参照します。
 
 | タスク ID | 用途 | ルールなしで起きるはずの失敗 | 測る指標 |
 | --- | --- | --- | --- |
