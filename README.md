@@ -16,7 +16,7 @@
 | --- | --- |
 | [`principles/`](principles/) | 根本にある思想。1件1ファイル |
 | [`taxonomy.md`](taxonomy.md) | ルールの分類軸と、分類から置き場所を決める対応表 |
-| `rules/` | ルール1件ごとの記録(防ぎたい失敗、判定方法、採否の根拠)。今後追加 |
+| [`rules/`](rules/) | ルール1件ごとの記録(防ぎたい失敗、判定方法、採否の根拠)。書式は [`rules/TEMPLATE.md`](rules/TEMPLATE.md) |
 | `decisions/` | 採否の判断記録。今後追加 |
 | `evaluation/` | 評価指標とベンチマーク設計の考え方。今後追加 |
 | [`references.md`](references.md) | 参照した論文・記事 |
